@@ -43,6 +43,7 @@ class ProductTableView: UITableView ,UITableViewDelegate, UITableViewDataSource 
         cell.proffessor.text = product.proffesor
         cell.university.text = product.university
         cell.productimage.image = UIImage(named: "product.image")
+    
         return cell
     }
     
